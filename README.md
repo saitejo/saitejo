@@ -16,17 +16,6 @@ I am an engineering student with a strong interest in intelligent systems, scien
 
 My current focus is developing a solid foundation in Machine Learning, C++, Computational Fluid Dynamics, and CAD-driven engineering workflows while building practical projects that bridge software and engineering.
 
----
-
-## Current Focus
-
-- Machine Learning & Data Science
-- Advanced C++
-- Numerical Methods
-- Computational Fluid Dynamics (CFD)
-- CAD & Engineering Design
-- Scientific Computing
-- Problem Solving & Algorithms
 
 ---
 
@@ -77,29 +66,15 @@ My current focus is developing a solid foundation in Machine Learning, C++, Comp
 📈 Optimization & Numerical Methods
 
 ---
-
-
-## GitHub Statistics
-
-<p align="center">
-
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true"/>
-
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact"/>
-
-</p>
-
-<p align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME"/>
-
-</p>
-
----
-
-
 <div align="center">
 
-### "Learn deeply. Build consistently. Optimize relentlessly."
+<img src="https://readme-typing-svg.herokuapp.com?font=Playfair+Display&weight=700&size=40&pause=999999&color=6A5ACD&center=true&vCenter=true&width=900&lines=✦+Ad+Astra+Per+Aspera+✦" />
+
+<br>
+
+<i>Through Hardships to the Stars</i>
+
+</div>
+### "."
 
 </div>
