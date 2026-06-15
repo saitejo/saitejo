@@ -44,9 +44,8 @@ My current focus is developing a solid foundation in Machine Learning, C++, Comp
 ## Tools & Technologies
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=python,cpp,git,github,vscode,linux" />
+<img src="https://skillicons.dev/icons?i=python,cpp,git,github,antigravity,linux,figma,openfoam" />
 </p>
-
 ---
 
 ## Areas of Interest
@@ -55,15 +54,12 @@ My current focus is developing a solid foundation in Machine Learning, C++, Comp
 
 📊 Machine Learning
 
-⚙️ Engineering Simulation
-
-🌊 Computational Fluid Dynamics
+🌊 Computational Fluid Dynamics (FEA)
 
 📐 Computer-Aided Design
 
 🚀 High-Performance Computing
 
-📈 Optimization & Numerical Methods
 
 ---
 <div align="center">
@@ -75,6 +71,5 @@ My current focus is developing a solid foundation in Machine Learning, C++, Comp
 <i>Through Hardships to the Stars</i>
 
 </div>
-### "."
 
 </div>
