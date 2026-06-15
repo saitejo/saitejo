@@ -13,9 +13,7 @@
 ## About Me
 
 *I am an engineering student with a strong interest in intelligent systems, scientific computing, and engineering simulation.*
-
-*My current focus is developing a solid foundation in Machine Learning, C++, Computational Fluid Dynamics, and CAD-driven engineering workflows while building practical projects that bridge software and engineering.*
----
+*My current focus is developing a solid foundation in Machine Learning, C++, Computational Fluid Dynamics, and CAD-driven engineering workflows while building practical projects that bridge software and engineering.* ---
 
 ## Tech Stack
 
