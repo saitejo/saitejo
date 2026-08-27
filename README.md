@@ -2,7 +2,7 @@
 
 # Hey, I'm Sai 👋
 
-### Artificial Intelligence • Machine Learning • C++ • Python
+### Artificial Intelligence • Machine Learning • C++ • Python • DSA
 
 <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=24&duration=3000&pause=1000&center=true&vCenter=true&width=800&lines=AI%2FML+Enthusiast;C%2B%2B+Developer;Building+AI+Agents;Exploring+the+Mathematics+Behind+AI" />
 
@@ -62,6 +62,8 @@ Mathematical Foundations of AI
 Backend Development
 
 Data Analysis
+
+DSA
 
 ---
 
