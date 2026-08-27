@@ -12,8 +12,7 @@
 
 ## About Me
 
-*I am an engineering student with a strong interest in intelligent systems, scientific computing, and engineering simulation.*
-*My current focus is developing a solid foundation in Machine Learning, C++, Computational Fluid Dynamics, and CAD-driven engineering workflows while building practical projects that bridge software and engineering.* ---
+*I’m an engineering student interested in AI/ML, AI agents, Backend Development and software development. I’m particularly drawn to understanding how things work and using that understanding to build useful systems. Right now, I’m mainly focusing on Machine Learning and backend development, working mostly with C++ and Python. I also do a bit of competitive programming, which I enjoy for the problem solving and mathematical side of it. Outside of that, I like exploring Computational Fluid Dynamics (CFD) and CAD as side interests, especially where they connect with physics, simulation, and engineering.
 
 ## Tech Stack
 
@@ -33,6 +32,9 @@
 
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
 
+<img src="https://img.shields.io/badge/RAG-FF6F00?style=for-the-badge&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/AI-412991?style=for-the-badge&logoColor=white"/>
 </p>
 
 ---
@@ -51,15 +53,15 @@
 
 ## Areas of Interest
 
-🧠 Artificial Intelligence
+Artificial Intelligence
 
-📊 Machine Learning
+Machine Learning
 
-🌊 Computational Fluid Dynamics (CFD)
+Mathematical Foundations of AI
 
-📐 Computer-Aided Design
+Backend Development
 
-🚀 High-Performance Computing
+Data Analysis
 
 ---
 
