@@ -1,10 +1,10 @@
 <div align="center">
 
-# Hi, I'm Sai
+# Hey, I'm Sai 👋
 
 ### Artificial Intelligence • Machine Learning • C++ 
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=24&duration=3000&pause=1000&center=true&vCenter=true&width=800&lines=AI+%26+Machine+Learning+Enthusiast;C%2B%2B+Developer;CFD+and+CAD+Explorer;Building+Projects+One+Commit+at+a+Time" />
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=24&duration=3000&pause=1000&center=true&vCenter=true&width=800&lines=AI+%26+Machine+Learning+Enthusiast;C%2B%2B+Developer;Building with AI Agents;Building+Projects+One+Commit+at+a+Time" />
 
 </div>
 
@@ -12,7 +12,7 @@
 
 ## About Me
 
-*I’m an engineering student interested in AI/ML, AI agents, Backend Development and software development. I’m particularly drawn to understanding how things work and using that understanding to build useful systems. Right now, I’m mainly focusing on Machine Learning and backend development, working mostly with C++ and Python. I also do a bit of competitive programming, which I enjoy for the problem solving and mathematical side of it. Outside of that, I like exploring Computational Fluid Dynamics (CFD) and CAD as side interests, especially where they connect with physics, simulation, and engineering.
+I’m an engineering student interested in AI/ML, AI agents, Backend Development and software development. I’m particularly drawn to understanding how things work and using that understanding to build useful systems. Right now, I’m mainly focusing on Machine Learning and backend development, working mostly with C++ and Python. I also do a bit of competitive programming, which I enjoy for the problem solving and mathematical side of it. Outside of that, I like exploring Computational Fluid Dynamics (CFD) and CAD as side interests, especially where they connect with physics, simulation, and engineering.
 
 ## Tech Stack
 
@@ -42,7 +42,7 @@
 ## Tools & Technologies
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=python,cpp,git,github,linux,figma" />
+<img src="https://skillicons.dev/icons?i=python,cpp,git,github,linux,figma,antigravity" />
 </p>
 
 <p align="center">
