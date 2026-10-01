@@ -1,108 +1,111 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="120" viewBox="0 0 860 120">
 <defs>
-<linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-<stop offset="0%" stop-color="#F6D365"/>
-<stop offset="20%" stop-color="#FDA085"/>
-<stop offset="40%" stop-color="#FFEAA7"/>
-<stop offset="60%" stop-color="#FDCB6E"/>
-<stop offset="80%" stop-color="#F39C12"/>
-<stop offset="100%" stop-color="#F6D365"/>
+<linearGradient id="cosmicGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#C084FC"/>
+<stop offset="30%" stop-color="#818CF8"/>
+<stop offset="50%" stop-color="#E0E7FF"/>
+<stop offset="70%" stop-color="#818CF8"/>
+<stop offset="100%" stop-color="#C084FC"/>
 </linearGradient>
-<linearGradient id="goldTextGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-<stop offset="0%" stop-color="#FFF8E7"/>
-<stop offset="40%" stop-color="#F9D423"/>
-<stop offset="80%" stop-color="#E8A838"/>
-<stop offset="100%" stop-color="#C58518"/>
+<linearGradient id="cosmicText" x1="0%" y1="0%" x2="0%" y2="100%">
+<stop offset="0%" stop-color="#FFFFFF"/>
+<stop offset="35%" stop-color="#E9D5FF"/>
+<stop offset="70%" stop-color="#A855F7"/>
+<stop offset="100%" stop-color="#7C3AED"/>
 </linearGradient>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&amp;display=swap');
-@keyframes goldPulse {
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&amp;family=Cinzel:wght@600;700&amp;display=swap');
+@keyframes cosmicPulse {
 0%, 100% {
-filter: drop-shadow(0 0 8px rgba(249, 212, 35, 0.45)) drop-shadow(0 0 18px rgba(232, 168, 56, 0.25));
+filter: drop-shadow(0 0 8px rgba(168, 85, 247, 0.45)) drop-shadow(0 0 20px rgba(129, 140, 248, 0.25));
 opacity: 0.95;
 }
 50% {
-filter: drop-shadow(0 0 16px rgba(255, 248, 231, 0.85)) drop-shadow(0 0 32px rgba(249, 212, 35, 0.6));
+filter: drop-shadow(0 0 16px rgba(233, 213, 255, 0.85)) drop-shadow(0 0 32px rgba(168, 85, 247, 0.65));
 opacity: 1;
 }
 }
-@keyframes sparkleA {
-0%, 100% { transform: scale(0.3) rotate(0deg); opacity: 0.1; }
+@keyframes twinkleGold {
+0%, 100% { transform: scale(0.3) rotate(0deg); opacity: 0.2; }
 50% { transform: scale(1.15) rotate(45deg); opacity: 1; }
 }
-@keyframes sparkleB {
-0%, 100% { transform: scale(1.1) rotate(35deg); opacity: 0.95; }
-50% { transform: scale(0.25) rotate(0deg); opacity: 0.15; }
+@keyframes twinkleSilver {
+0%, 100% { transform: scale(1.15) rotate(35deg); opacity: 0.95; }
+50% { transform: scale(0.3) rotate(0deg); opacity: 0.15; }
 }
-@keyframes sparkleC {
-0%, 100% { transform: scale(0.4) rotate(15deg); opacity: 0.2; }
+@keyframes twinkleCross {
+0%, 100% { transform: scale(0.4) rotate(15deg); opacity: 0.25; }
 50% { transform: scale(1.2) rotate(60deg); opacity: 1; }
 }
 .motto-title {
-font-family: 'Cinzel', 'Playfair Display', 'Bodoni MT', 'Georgia', serif;
-font-size: 28px;
+font-family: 'Cinzel Decorative', 'Cinzel', 'Bodoni 72', 'Didot', 'Baskerville', serif;
+font-size: 27px;
 font-weight: 700;
-letter-spacing: 7px;
-fill: url(#goldTextGrad);
-animation: goldPulse 3.8s ease-in-out infinite;
+letter-spacing: 8px;
+fill: url(#cosmicText);
+animation: cosmicPulse 3.8s ease-in-out infinite;
 }
 .motto-sub {
-font-family: 'Cinzel', 'Georgia', serif;
+font-family: 'Cinzel', 'Baskerville', 'Georgia', serif;
 font-size: 11.5px;
 font-weight: 600;
 letter-spacing: 5px;
 text-transform: uppercase;
-fill: #D8C394;
+fill: #CBD5E1;
 opacity: 0.85;
 }
-.sp1 {
+.gold-star {
 transform-origin: center;
-animation: sparkleA 2.6s ease-in-out infinite;
-fill: #FFF8E7;
-filter: drop-shadow(0 0 5px #F9D423);
+animation: twinkleGold 2.7s ease-in-out infinite;
+fill: #FCD34D;
+filter: drop-shadow(0 0 5px #F59E0B);
 }
-.sp2 {
+.silver-star {
 transform-origin: center;
-animation: sparkleB 3.2s ease-in-out infinite;
-fill: #FFEAA7;
-filter: drop-shadow(0 0 6px #F39C12);
+animation: twinkleSilver 3.1s ease-in-out infinite;
+fill: #FFFFFF;
+filter: drop-shadow(0 0 6px #E2E8F0);
 }
-.sp3 {
+.gold-star2 {
 transform-origin: center;
-animation: sparkleC 2.9s 0.8s ease-in-out infinite;
-fill: #FFF8E7;
-filter: drop-shadow(0 0 5px #F9D423);
+animation: twinkleCross 2.9s 0.7s ease-in-out infinite;
+fill: #FDE68A;
+filter: drop-shadow(0 0 5px #F59E0B);
 }
-.dust {
-fill: #FFEAA7;
-opacity: 0.7;
+.silver-star2 {
+transform-origin: center;
+animation: twinkleGold 3.3s 0.4s ease-in-out infinite;
+fill: #F1F5F9;
+filter: drop-shadow(0 0 5px #CBD5E1);
 }
+.gold-dust { fill: #FCD34D; opacity: 0.75; }
+.silver-dust { fill: #F8FAFC; opacity: 0.85; }
 </style>
 </defs>
-<rect width="100%" height="100%" fill="#0d1117" rx="10" stroke="#252119" stroke-width="1"/>
-<g transform="translate(130, 52)">
-<path class="sp1" d="M 0,-9 Q 0,0 9,0 Q 0,0 0,9 Q 0,0 -9,0 Q 0,0 0,-9 Z"/>
+<rect width="100%" height="100%" fill="#0d1117" rx="10" stroke="#1f2328" stroke-width="1"/>
+<g transform="translate(115, 52)">
+<path class="gold-star" d="M 0,-9 Q 0,0 9,0 Q 0,0 0,9 Q 0,0 -9,0 Q 0,0 0,-9 Z"/>
 </g>
-<g transform="translate(730, 52)">
-<path class="sp1" d="M 0,-9 Q 0,0 9,0 Q 0,0 0,9 Q 0,0 -9,0 Q 0,0 0,-9 Z"/>
+<g transform="translate(745, 52)">
+<path class="gold-star" d="M 0,-9 Q 0,0 9,0 Q 0,0 0,9 Q 0,0 -9,0 Q 0,0 0,-9 Z"/>
 </g>
-<g transform="translate(200, 32)">
-<path class="sp2" d="M 0,-6 Q 0,0 6,0 Q 0,0 0,6 Q 0,0 -6,0 Q 0,0 0,-6 Z"/>
+<g transform="translate(190, 32)">
+<path class="silver-star" d="M 0,-7 Q 0,0 7,0 Q 0,0 0,7 Q 0,0 -7,0 Q 0,0 0,-7 Z"/>
 </g>
-<g transform="translate(660, 32)">
-<path class="sp2" d="M 0,-6 Q 0,0 6,0 Q 0,0 0,6 Q 0,0 -6,0 Q 0,0 -6,0 Q 0,0 0,-6 Z"/>
+<g transform="translate(670, 32)">
+<path class="silver-star" d="M 0,-7 Q 0,0 7,0 Q 0,0 0,7 Q 0,0 -7,0 Q 0,0 0,-7 Z"/>
 </g>
-<g transform="translate(165, 80)">
-<path class="sp3" d="M 0,-5 Q 0,0 5,0 Q 0,0 0,5 Q 0,0 -5,0 Q 0,0 0,-5 Z"/>
+<g transform="translate(155, 82)">
+<path class="silver-star2" d="M 0,-6 Q 0,0 6,0 Q 0,0 0,6 Q 0,0 -6,0 Q 0,0 0,-6 Z"/>
 </g>
-<g transform="translate(695, 80)">
-<path class="sp3" d="M 0,-5 Q 0,0 5,0 Q 0,0 0,5 Q 0,0 -5,0 Q 0,0 0,-5 Z"/>
+<g transform="translate(705, 82)">
+<path class="gold-star2" d="M 0,-6 Q 0,0 6,0 Q 0,0 0,6 Q 0,0 -6,0 Q 0,0 0,-6 Z"/>
 </g>
-<circle cx="280" cy="24" r="1.5" class="dust"/>
-<circle cx="580" cy="24" r="1.5" class="dust"/>
-<circle cx="250" cy="94" r="1.2" class="dust"/>
-<circle cx="610" cy="94" r="1.2" class="dust"/>
-<circle cx="430" cy="18" r="1.6" class="dust"/>
+<circle cx="260" cy="24" r="1.5" class="gold-dust"/>
+<circle cx="600" cy="24" r="1.5" class="silver-dust"/>
+<circle cx="230" cy="94" r="1.3" class="silver-dust"/>
+<circle cx="630" cy="94" r="1.3" class="gold-dust"/>
+<circle cx="430" cy="18" r="1.5" class="silver-dust"/>
 <text x="430" y="58" text-anchor="middle" class="motto-title">&#10022;  AD ASTRA PER ASPERA  &#10022;</text>
 <text x="430" y="88" text-anchor="middle" class="motto-sub">Through Hardships to the Stars</text>
 </svg>

@@ -45,17 +45,7 @@
 
 <div align="center">
 
-<h3><code>sai@github ~ $ cat about.txt</code></h3>
-
-<br>
-
-<p>
-Engineering student interested in <b>AI/ML</b>, <b>AI agents</b>, <b>Backend Development</b>, and software engineering.<br>
-Drawn to understanding how systems operate from mathematical first principles and building robust solutions.<br>
-Currently focused on <b>Machine Learning foundations</b> and <b>backend systems</b> using <b>C++</b> and <b>Python</b>.<br>
-Active in competitive programming for algorithmic problem solving and mathematical rigor.<br>
-Exploring <b>Computational Fluid Dynamics (CFD)</b> and <b>CAD</b> at the intersection of physics and simulation.
-</p>
+<img src="./about-card.svg" width="860" />
 
 </div>
 

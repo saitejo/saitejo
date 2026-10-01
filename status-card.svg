@@ -1,46 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="460" height="240" viewBox="0 0 460 240">
-<rect width="100%" height="100%" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="234" viewBox="0 0 460 234">
+<rect width="100%" height="100%" rx="9" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+<path d="M 0,9 Q 0,0 9,0 L 451,0 Q 460,0 460,9 L 460,34 L 0,34 Z" fill="#161b22"/>
+<line x1="0" y1="34" x2="460" y2="34" stroke="#30363d" stroke-width="1"/>
+<circle cx="18" cy="17" r="5" fill="#ff5f56"/>
+<circle cx="34" cy="17" r="5" fill="#ffbd2e"/>
+<circle cx="50" cy="17" r="5" fill="#27c93f"/>
+<text x="230" y="21" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="11px" fill="#8b949e">session — sai@system</text>
 <style>
-.line0 { opacity: 0; animation: fadeIn 0.4s 0.80s forwards; }
-.line1 { opacity: 0; animation: fadeIn 0.4s 0.95s forwards; }
-.line2 { opacity: 0; animation: fadeIn 0.4s 1.10s forwards; }
-.line3 { opacity: 0; animation: fadeIn 0.4s 1.25s forwards; }
-.line4 { opacity: 0; animation: fadeIn 0.4s 1.40s forwards; }
-.line5 { opacity: 0; animation: fadeIn 0.4s 1.55s forwards; }
-.line6 { opacity: 0; animation: fadeIn 0.4s 1.70s forwards; }
-.line7 { opacity: 0; animation: fadeIn 0.4s 1.85s forwards; }
+.line0 { opacity: 0; animation: fadeIn 0.4s 0.50s forwards; }
+.line1 { opacity: 0; animation: fadeIn 0.4s 0.62s forwards; }
+.line2 { opacity: 0; animation: fadeIn 0.4s 0.74s forwards; }
+.line3 { opacity: 0; animation: fadeIn 0.4s 0.86s forwards; }
+.line4 { opacity: 0; animation: fadeIn 0.4s 0.98s forwards; }
+.line5 { opacity: 0; animation: fadeIn 0.4s 1.10s forwards; }
+.line6 { opacity: 0; animation: fadeIn 0.4s 1.22s forwards; }
+.line7 { opacity: 0; animation: fadeIn 0.4s 1.34s forwards; }
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 </style>
-<text x="24" y="37" font-family="'JetBrains Mono','Courier New',monospace" font-size="13px" fill="#58a6ff" font-weight="bold" class="line0">sai@system ~ (session: live)</text>
-<text x="24" y="59" font-family="'JetBrains Mono','Courier New',monospace" font-size="13px" fill="#8b949e" class="line1">────────────────────────────</text>
-<text x="24" y="81" font-family="'JetBrains Mono','Courier New',monospace" font-size="13px" class="line2">
+<text x="20" y="62" font-family="'JetBrains Mono','Courier New',monospace" font-size="12.5px" fill="#58a6ff" font-weight="bold" class="line0">sai@system ~ $ sysctl --status</text>
+<text x="20" y="83" font-family="'JetBrains Mono','Courier New',monospace" font-size="12.5px" fill="#8b949e" class="line1">──────────────────────────────────────</text>
+<text x="20" y="104" font-family="'JetBrains Mono','Courier New',monospace" font-size="12.5px" class="line2">
 <tspan fill="#7ee787" font-weight="bold">Systems</tspan>
 <tspan fill="#8b949e"> ~ </tspan>
-<tspan fill="#e6edf3">Distributed Backends, Linux Kernel</tspan>
+<tspan fill="#e6edf3">Distributed Backends, Linux</tspan>
 </text>
-<text x="24" y="103" font-family="'JetBrains Mono','Courier New',monospace" font-size="13px" class="line3">
+<text x="20" y="125" font-family="'JetBrains Mono','Courier New',monospace" font-size="12.5px" class="line3">
 <tspan fill="#79c0ff" font-weight="bold">AI / ML</tspan>
 <tspan fill="#8b949e"> ~ </tspan>
 <tspan fill="#e6edf3">Deep Learning, LLM Agents, RAG</tspan>
 </text>
-<text x="24" y="125" font-family="'JetBrains Mono','Courier New',monospace" font-size="13px" class="line4">
+<text x="20" y="146" font-family="'JetBrains Mono','Courier New',monospace" font-size="12.5px" class="line4">
 <tspan fill="#ffa657" font-weight="bold">Toolbox</tspan>
 <tspan fill="#8b949e"> ~ </tspan>
 <tspan fill="#e6edf3">Docker, CMake, OpenFOAM, Neovim</tspan>
 </text>
-<text x="24" y="147" font-family="'JetBrains Mono','Courier New',monospace" font-size="13px" class="line5">
-<tspan fill="#d2a8ff" font-weight="bold">Problem Solving</tspan>
+<text x="20" y="167" font-family="'JetBrains Mono','Courier New',monospace" font-size="12.5px" class="line5">
+<tspan fill="#d2a8ff" font-weight="bold">DSA</tspan>
 <tspan fill="#8b949e"> ~ </tspan>
-<tspan fill="#e6edf3">Competitive Programming, Graph Theory</tspan>
+<tspan fill="#e6edf3">Competitive Programming, Graphs</tspan>
 </text>
-<text x="24" y="169" font-family="'JetBrains Mono','Courier New',monospace" font-size="13px" class="line6">
+<text x="20" y="188" font-family="'JetBrains Mono','Courier New',monospace" font-size="12.5px" class="line6">
 <tspan fill="#ff7b72" font-weight="bold">Simulation</tspan>
 <tspan fill="#8b949e"> ~ </tspan>
 <tspan fill="#e6edf3">Fluid Dynamics (CFD), CAD</tspan>
 </text>
-<text x="24" y="191" font-family="'JetBrains Mono','Courier New',monospace" font-size="13px" class="line7">
+<text x="20" y="209" font-family="'JetBrains Mono','Courier New',monospace" font-size="12.5px" class="line7">
 <tspan fill="#58a6ff" font-weight="bold">Status</tspan>
 <tspan fill="#8b949e"> ~ </tspan>
-<tspan fill="#e6edf3">● Online · Researching & Building</tspan>
+<tspan fill="#e6edf3">● Online · Researching &amp; Building</tspan>
 </text>
 </svg>
