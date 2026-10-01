@@ -59,13 +59,13 @@ def main():
     parts.append(f'<rect width="100%" height="100%" fill="{BG}"/>')
     parts.append("<style>")
     parts.append(
-        "@keyframes glowReveal "
-        "{ 0% { opacity: 0; filter: drop-shadow(0 0 5px #ffffff) brightness(1.5); } "
-        "60% { opacity: 1; filter: drop-shadow(0 0 3px #ffffff) brightness(1.2); } "
-        "100% { opacity: 1; filter: drop-shadow(0 0 0 transparent) brightness(1); } }"
+        "@keyframes revealBox "
+        "{ 0% { opacity: 0; filter: brightness(2); } "
+        "40% { opacity: 1; filter: brightness(1.6); } "
+        "100% { opacity: 1; filter: brightness(1); } }"
     )
     parts.append(
-        ".box { opacity: 0; animation: glowReveal 0.45s cubic-bezier(0.4, 0, 0.2, 1) forwards; }"
+        ".box { opacity: 0; animation: revealBox 0.45s cubic-bezier(0.4, 0, 0.2, 1) forwards; }"
     )
     parts.append("</style>")
 
