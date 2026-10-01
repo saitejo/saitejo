@@ -79,6 +79,20 @@
 
 <div align="center">
 
+<h3><code>sai@github ~ $ echo $CONTACT</code></h3>
+
+<p align="center">
+<a href="mailto:sairamakrishnatejo@gmail.com">
+<img src="https://img.shields.io/badge/Email-sairamakrishnatejo%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+</p>
+
+</div>
+
+---
+
+<div align="center">
+
 <br>
 
 <img src="./motto.svg" width="860" />
