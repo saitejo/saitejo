@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="908" height="198" viewBox="0 0 908 198">
 <rect width="100%" height="100%" fill="#0d1117"/>
 <style>
-@keyframes glowReveal { 0% { opacity: 0; filter: drop-shadow(0 0 5px #39d353) brightness(1.4); } 60% { opacity: 1; filter: drop-shadow(0 0 3px #26a641) brightness(1.2); } 100% { opacity: 1; filter: drop-shadow(0 0 0 transparent) brightness(1); } }
+@keyframes glowReveal { 0% { opacity: 0; filter: drop-shadow(0 0 5px #ffffff) brightness(1.5); } 60% { opacity: 1; filter: drop-shadow(0 0 3px #ffffff) brightness(1.2); } 100% { opacity: 1; filter: drop-shadow(0 0 0 transparent) brightness(1); } }
 .box { opacity: 0; animation: glowReveal 0.45s cubic-bezier(0.4, 0, 0.2, 1) forwards; }
 </style>
 <text x="40" y="28" font-family="'Segoe UI','Helvetica Neue',sans-serif" font-size="11px" fill="#8b949e">Sep</text>

@@ -60,8 +60,8 @@ def main():
     parts.append("<style>")
     parts.append(
         "@keyframes glowReveal "
-        "{ 0% { opacity: 0; filter: drop-shadow(0 0 5px #39d353) brightness(1.4); } "
-        "60% { opacity: 1; filter: drop-shadow(0 0 3px #26a641) brightness(1.2); } "
+        "{ 0% { opacity: 0; filter: drop-shadow(0 0 5px #ffffff) brightness(1.5); } "
+        "60% { opacity: 1; filter: drop-shadow(0 0 3px #ffffff) brightness(1.2); } "
         "100% { opacity: 1; filter: drop-shadow(0 0 0 transparent) brightness(1); } }"
     )
     parts.append(
