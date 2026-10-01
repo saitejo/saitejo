@@ -1,23 +1,108 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="700" height="100" viewBox="0 0 700 100">
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="120" viewBox="0 0 860 120">
 <defs>
-<filter id="glow">
-<feGaussianBlur stdDeviation="3.5" result="blur"/>
-<feComposite in="SourceGraphic" in2="blur" operator="over"/>
-</filter>
-</defs>
+<linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#F6D365"/>
+<stop offset="20%" stop-color="#FDA085"/>
+<stop offset="40%" stop-color="#FFEAA7"/>
+<stop offset="60%" stop-color="#FDCB6E"/>
+<stop offset="80%" stop-color="#F39C12"/>
+<stop offset="100%" stop-color="#F6D365"/>
+</linearGradient>
+<linearGradient id="goldTextGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+<stop offset="0%" stop-color="#FFF8E7"/>
+<stop offset="40%" stop-color="#F9D423"/>
+<stop offset="80%" stop-color="#E8A838"/>
+<stop offset="100%" stop-color="#C58518"/>
+</linearGradient>
 <style>
-@keyframes pulse {
-0%, 100% { opacity: 0.7; filter: drop-shadow(0 0 6px #8A2BE2); }
-50% { opacity: 1; filter: drop-shadow(0 0 16px #9370DB); }
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&amp;display=swap');
+@keyframes goldPulse {
+0%, 100% {
+filter: drop-shadow(0 0 8px rgba(249, 212, 35, 0.45)) drop-shadow(0 0 18px rgba(232, 168, 56, 0.25));
+opacity: 0.95;
 }
-@keyframes fadeUp {
-from { opacity: 0; }
-to { opacity: 0.8; }
+50% {
+filter: drop-shadow(0 0 16px rgba(255, 248, 231, 0.85)) drop-shadow(0 0 32px rgba(249, 212, 35, 0.6));
+opacity: 1;
 }
-.motto { animation: pulse 3.5s ease-in-out infinite; }
-.sub { animation: fadeUp 2s 0.5s ease-out forwards; opacity: 0; }
+}
+@keyframes sparkleA {
+0%, 100% { transform: scale(0.3) rotate(0deg); opacity: 0.1; }
+50% { transform: scale(1.15) rotate(45deg); opacity: 1; }
+}
+@keyframes sparkleB {
+0%, 100% { transform: scale(1.1) rotate(35deg); opacity: 0.95; }
+50% { transform: scale(0.25) rotate(0deg); opacity: 0.15; }
+}
+@keyframes sparkleC {
+0%, 100% { transform: scale(0.4) rotate(15deg); opacity: 0.2; }
+50% { transform: scale(1.2) rotate(60deg); opacity: 1; }
+}
+.motto-title {
+font-family: 'Cinzel', 'Playfair Display', 'Bodoni MT', 'Georgia', serif;
+font-size: 28px;
+font-weight: 700;
+letter-spacing: 7px;
+fill: url(#goldTextGrad);
+animation: goldPulse 3.8s ease-in-out infinite;
+}
+.motto-sub {
+font-family: 'Cinzel', 'Georgia', serif;
+font-size: 11.5px;
+font-weight: 600;
+letter-spacing: 5px;
+text-transform: uppercase;
+fill: #D8C394;
+opacity: 0.85;
+}
+.sp1 {
+transform-origin: center;
+animation: sparkleA 2.6s ease-in-out infinite;
+fill: #FFF8E7;
+filter: drop-shadow(0 0 5px #F9D423);
+}
+.sp2 {
+transform-origin: center;
+animation: sparkleB 3.2s ease-in-out infinite;
+fill: #FFEAA7;
+filter: drop-shadow(0 0 6px #F39C12);
+}
+.sp3 {
+transform-origin: center;
+animation: sparkleC 2.9s 0.8s ease-in-out infinite;
+fill: #FFF8E7;
+filter: drop-shadow(0 0 5px #F9D423);
+}
+.dust {
+fill: #FFEAA7;
+opacity: 0.7;
+}
 </style>
-<rect width="100%" height="100%" fill="#0d1117" rx="8"/>
-<text x="350" y="46" text-anchor="middle" font-family="'Georgia','Playfair Display',serif" font-size="28" font-weight="700" fill="#a78bfa" class="motto">✦  Ad Astra Per Aspera  ✦</text>
-<text x="350" y="74" text-anchor="middle" font-family="'Georgia',serif" font-size="13" fill="#8b949e" font-style="italic" class="sub">Through Hardships to the Stars</text>
+</defs>
+<rect width="100%" height="100%" fill="#0d1117" rx="10" stroke="#252119" stroke-width="1"/>
+<g transform="translate(130, 52)">
+<path class="sp1" d="M 0,-9 Q 0,0 9,0 Q 0,0 0,9 Q 0,0 -9,0 Q 0,0 0,-9 Z"/>
+</g>
+<g transform="translate(730, 52)">
+<path class="sp1" d="M 0,-9 Q 0,0 9,0 Q 0,0 0,9 Q 0,0 -9,0 Q 0,0 0,-9 Z"/>
+</g>
+<g transform="translate(200, 32)">
+<path class="sp2" d="M 0,-6 Q 0,0 6,0 Q 0,0 0,6 Q 0,0 -6,0 Q 0,0 0,-6 Z"/>
+</g>
+<g transform="translate(660, 32)">
+<path class="sp2" d="M 0,-6 Q 0,0 6,0 Q 0,0 0,6 Q 0,0 -6,0 Q 0,0 -6,0 Q 0,0 0,-6 Z"/>
+</g>
+<g transform="translate(165, 80)">
+<path class="sp3" d="M 0,-5 Q 0,0 5,0 Q 0,0 0,5 Q 0,0 -5,0 Q 0,0 0,-5 Z"/>
+</g>
+<g transform="translate(695, 80)">
+<path class="sp3" d="M 0,-5 Q 0,0 5,0 Q 0,0 0,5 Q 0,0 -5,0 Q 0,0 0,-5 Z"/>
+</g>
+<circle cx="280" cy="24" r="1.5" class="dust"/>
+<circle cx="580" cy="24" r="1.5" class="dust"/>
+<circle cx="250" cy="94" r="1.2" class="dust"/>
+<circle cx="610" cy="94" r="1.2" class="dust"/>
+<circle cx="430" cy="18" r="1.6" class="dust"/>
+<text x="430" y="58" text-anchor="middle" class="motto-title">&#10022;  AD ASTRA PER ASPERA  &#10022;</text>
+<text x="430" y="88" text-anchor="middle" class="motto-sub">Through Hardships to the Stars</text>
 </svg>

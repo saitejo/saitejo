@@ -26,8 +26,16 @@
 
 <table>
   <tr>
-    <td valign="top"><img src="./sai-ascii.svg" width="370" /></td>
-    <td valign="top"><img src="./info-card.svg" width="490" /></td>
+    <td valign="top" align="center">
+      <p><code>sai@github ~ $ cat this-is-me.raw</code></p>
+      <img src="./sai-ascii.svg" width="370" />
+    </td>
+    <td valign="top" align="center">
+      <p><code>sai@github ~ $ neofetch --specs</code></p>
+      <img src="./info-card.svg" width="490" />
+      <br><br>
+      <img src="./status-card.svg" width="490" />
+    </td>
   </tr>
 </table>
 
@@ -81,30 +89,9 @@ Exploring <b>Computational Fluid Dynamics (CFD)</b> and <b>CAD</b> at the inters
 
 <div align="center">
 
-<h3><code>sai@github ~ $ cat interests.txt</code></h3>
-
 <br>
 
-```
- ╔══════════════════════════════════════════════════════╗
- ║  ► Artificial Intelligence & Neural Architectures    ║
- ║  ► Machine Learning & Statistical Inference          ║
- ║  ► Mathematical Foundations of AI                    ║
- ║  ► High-Performance Backend Development              ║
- ║  ► Data Structures & Competitive Programming         ║
- ║  ► Computational Fluid Dynamics (CFD) & CAD Modeling ║
- ╚══════════════════════════════════════════════════════╝
-```
-
-</div>
-
----
-
-<div align="center">
-
-<br>
-
-<img src="./motto.svg" width="700" />
+<img src="./motto.svg" width="860" />
 
 <br><br>
 
