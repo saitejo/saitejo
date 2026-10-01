@@ -63,7 +63,7 @@ def main():
         "{ from { opacity: 0; } to { opacity: 1; } }"
     )
     parts.append(
-        ".box { opacity: 0; animation: fadeIn 0.1s ease-out forwards; }"
+        ".box { opacity: 0; animation: fadeIn 0.3s ease-out forwards; }"
     )
     parts.append("</style>")
 
@@ -104,7 +104,7 @@ def main():
             info = day_map.get(date_str, {"level": 0, "count": 0})
             level = min(info["level"], len(PALETTE) - 1)
             color = PALETTE[level]
-            delay = wi * 0.02 + row * 0.01
+            delay = wi * 0.055 + row * 0.025
             parts.append(
                 f'<rect class="box" x="{x}" y="{y}" '
                 f'width="{BOX}" height="{BOX}" rx="{RADIUS}" '
